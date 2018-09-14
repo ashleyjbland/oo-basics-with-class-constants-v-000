@@ -18,4 +18,4 @@ class Shoe
   end
 end
 
-BRANDS.uniq
+Shoe::BRANDS.uniq
