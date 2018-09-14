@@ -4,8 +4,10 @@ class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
 
-  BRANDS = []
-
+  def unique
+    BRANDS = []
+    BRANDS.uniq
+  end
 
   def initialize(brand)
     @brand = brand
@@ -18,4 +20,4 @@ class Shoe
   end
 end
 
-Shoe.constants.uniq
+
