@@ -11,10 +11,10 @@ class Shoe
     @brand = brand
     BRANDS << brand
   end
-  BRANDS.uniq
 
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
+  Shoe.constant.uniq
 end
