@@ -11,10 +11,7 @@ class Shoe
     @brand = brand
     BRANDS << brand
   end
-
-  def unique
-    BRANDS.uniq
-  end
+  binding.pry
 
   def cobble
     self.condition = "new"
